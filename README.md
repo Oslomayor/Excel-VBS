@@ -15,7 +15,7 @@ Set sheet1 = workbook.Worksheets(1)
 
 sheet1.Range("A1").Value = "Hello World!"
 ```
-Windows 系统内嵌VBS解释器，不需安装配置环境。将以上代码保存为后缀名为*.vbs的文本文件，双击直接可以运行。  
+Windows 系统内嵌VBS解释器，不需安装配置环境。将以上代码保存为后缀名为*.vbs的文本文件，双击直接可以运行。效果是创建一个Excel表格，并在A1单元格中写入Hello World!    
 ![](https://raw.githubusercontent.com/Oslomayor/Markdown-Imglib/master/Imgs/excel-helloworld.png)  
 
 ## Fill numbers  
